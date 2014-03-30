@@ -36,11 +36,11 @@ Initial Draft of Video Table to use in the Database
 * Video Likes
 * Comments (Foreign Primary Key)
 
-Things to consider:
-> Video storage structure
-> Video Uploader
-> Video player
-> TODO: How to create a service in Linux and have it running. If the script crashes the
+Things to consider
+> * Video storage structure
+> * Video Uploader
+> * Video player
+> * TODO: How to create a service in Linux and have it running. If the script crashes the
 script/service needs to be relaunched - Python?
 
 ###### Workflow
