@@ -25,6 +25,8 @@ Database Engine
 #### Video Streaming Uploading/Downloading - **Hugo**
   * Video Player
   * Video Uploader
+
+Revise Video Encoding
 > Video encoding - FFmpeg us used to convert between video formats
 > Need to convert uploaded videos to a standard format for playing videos
 
