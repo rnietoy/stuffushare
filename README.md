@@ -6,11 +6,14 @@ Video sharing website of inspirational stories
 Initial Planning
 ----------------
 
-* Setup Web Server
+Setup Web Server
 > nginx
+
 > Apache
-* Database Engine
+
+Database Engine
 > Postgre SQL
+
 * Action Item: PostgreSQL vs MySQL investigation
 
 #### Site Memberships - **Angel**
