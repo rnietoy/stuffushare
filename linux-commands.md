@@ -3,6 +3,7 @@ Useful Linux Commands
 
 A list of useful commands here
 
+<<<<<<< HEAD
 ### Install Python 3 ###
 sudo apt-get install python3
 sudo apt-get install python-pip
@@ -67,10 +68,7 @@ tcp        0      0 0.0.0.0:8000            0.0.0.0:*               LISTEN
 tcp6       0      0 :::22                   :::*                    LISTEN
 
 --------------------------------------------------------------------------------------------
-
-
-
-
-
+Python package manager
+http://www.pip-installer.org/en/latest/index.html
 
 
