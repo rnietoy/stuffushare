@@ -71,4 +71,18 @@ tcp6       0      0 :::22                   :::*                    LISTEN
 Python package manager
 http://www.pip-installer.org/en/latest/index.html
 
+--------------------------------------------------------------------------------------------
+Resolve a Git merge conflict
 
+Here is the scenario:
+1. git pull origin master
+   -> error is shown as follows: Merge conflict in "linux-commands.md"
+2. Open linux-commands.md in text editor, manually fix (look for the conflicts marked by <<<<< lines)
+3. git add . <- to add all files that have changed, or
+   git add <file name> <- if you want to specify the file specifically
+4. git commit -m "resolved conflix so and so"
+5. git push origin master
+
+Done!
+
+   
