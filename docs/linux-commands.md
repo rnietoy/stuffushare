@@ -33,6 +33,9 @@ deactivate
 --------------------------------------------------------------------------------------------
 Checkout files from git (first time)
 
+cd to the local copy where the repository will be
+
+git init
 git remote add origin https://github.com/rnietoy/stuffushare.git
 git pull origin master
 
