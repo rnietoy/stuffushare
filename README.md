@@ -15,6 +15,8 @@ Database Engine
 > Postgre SQL
 
 * Action Item: PostgreSQL vs MySQL investigation
+Note: PostgreSQL Administration: pgAdmin
+http://pgadmin.org/index.php
 
 #### Site Memberships - **Angel**
   * Login integration with Facebook
