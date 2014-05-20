@@ -3,7 +3,6 @@ Useful Linux Commands
 
 A list of useful commands here
 
-<<<<<<< HEAD
 ### Install Python 3 ###
 sudo apt-get install python3
 sudo apt-get install python-pip
@@ -30,8 +29,7 @@ cd stuffushare
 ### Deactivate the virtual env ###
 deactivate
 
---------------------------------------------------------------------------------------------
-Checkout files from git (first time)
+### Checkout files from git (first time)
 
 cd to the local copy where the repository will be
 
@@ -39,13 +37,11 @@ git init
 git remote add origin https://github.com/rnietoy/stuffushare.git
 git pull origin master
 
---------------------------------------------------------------------------------------------
-Turn off / shutdown linux box
+### Turn off / shutdown linux box
 
 shutdown -h now
 
---------------------------------------------------------------------------------------------
-Creating a django project
+### Creating a django project
 
 1. Activate your virtualenv
 2. Navigate to where you want to create your project
@@ -58,10 +54,9 @@ This is what I have inside my ~/sandbox/python directory:
 envs/boardgames <- this is the boardgames virtual environment. It has django installed.
 dev/boardgames <- this is the boardgames django project
 
---------------------------------------------------------------------------------------------
 ### start django server ###
-# activate your virtualenv
-python manage.py runserver 0.0.0.0:8000
+1. activate your virtualenv
+2. python manage.py runserver 0.0.0.0:8000
 
 netstat -an | grep "LISTEN "
 
@@ -70,16 +65,15 @@ tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN
 tcp        0      0 0.0.0.0:8000            0.0.0.0:*               LISTEN
 tcp6       0      0 :::22                   :::*                    LISTEN
 
---------------------------------------------------------------------------------------------
-Python package manager
+### Python package manager
 http://www.pip-installer.org/en/latest/index.html
 
---------------------------------------------------------------------------------------------
-Resolve a Git merge conflict
+### Resolve a Git merge conflict
 
 Here is the scenario:
+
 1. git pull origin master
-   -> error is shown as follows: Merge conflict in "linux-commands.md"
+    - error is shown as follows: Merge conflict in "linux-commands.md"
 2. Open linux-commands.md in text editor, manually fix (look for the conflicts marked by <<<<< lines)
 3. git add . <- to add all files that have changed, or
    git add <file name> <- if you want to specify the file specifically
@@ -87,5 +81,3 @@ Here is the scenario:
 5. git push origin master
 
 Done!
-
-   
