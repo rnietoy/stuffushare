@@ -3,9 +3,11 @@ Useful Linux Commands
 
 A list of useful commands here
 
-### Install Python 3 ###
+### Install Python 3
+```
 sudo apt-get install python3
 sudo apt-get install python-pip
+```
 
 ### Install virtual env ###
 sudo pip install virtualenv
@@ -16,26 +18,28 @@ install it while inside a virtual environment (in this case, stuffushare).
 
 pip is python's package management system.
 
-### Create a virtualenv for stuffushare ###
-virtualenv -p /usr/bin/python3 stuffushare
+### Create a virtualenv for stuffushare
+``` virtualenv -p /usr/bin/python3 stuffushare ```
 
 This will create a directory called stuffushare, and create a virtual environment inside that
 directory.
 
-### Activate the virtual env ###
+### Activate the virtual env
 cd stuffushare
 . bin/activate
 
-### Deactivate the virtual env ###
+### Deactivate the virtual env
 deactivate
 
 ### Checkout files from git (first time)
 
 cd to the local copy where the repository will be
 
+```
 git init
 git remote add origin https://github.com/rnietoy/stuffushare.git
 git pull origin master
+```
 
 ### Turn off / shutdown linux box
 
