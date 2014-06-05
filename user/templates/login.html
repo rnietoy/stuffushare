@@ -2,7 +2,7 @@
 
 {% block content %}
     <div class="row">
-		<h1>Welcome...</h1>
+		<h2>New User? <a href="/register/">Register</a></h2>
 		<form action="/login/" method="post">{% csrf_token %}
     		<div class="form-group">
     			<label for="email">Email address</label>

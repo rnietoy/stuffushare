@@ -16,7 +16,7 @@
         <!-- Logo and login bar -->
         <form class="form-inline row-sm-height" role="form">
             <div class="col-md-1 logo-div col-sm-height">
-            	<img src="/static/logo.gif" />
+            	<a href="/"><img src="/static/logo.gif" /></a>
             </div>
             <div class="col-md-12 form-group col-sm-height">
             	<div class="topbar-inner-div">
@@ -36,7 +36,11 @@
         	</div>
         	<div class="col-md-1 topbar-div col-sm-height">
         		<div class="topbar-inner-div">
-        			<a href="/login">Login</a>
+                    {% if user.is_authenticated %}
+                        <a href="/logout">Logout</a>
+                    {% else %}
+                        <a href="/login">Login</a>
+                    {% endif %}
         		</div>
         	</div>
         </form>
